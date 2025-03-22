@@ -5,6 +5,7 @@ Parameters:
   KeyName: 
     Description: 'Name of an existing EC2 KeyPair to allow SSH access to the instance'
     Type: AWS::EC2::KeyPair::KeyName
+    Default: "hemanth"
   InstanceType:
     Description: 'EC2 instance type'
     Type: String
